@@ -1,45 +1,53 @@
-# Sensor Data Dashboard
+# SmartCompost — Project Showcase
 
-A MATLAB App Designer prototype exploring interactive sensor-data visualization and condition-based feedback.
+**A MATLAB App Designer prototype exploring compost conditions and simulated glyphosate degradation.**
 
-Developed by **Ernest Pae**, this early project contributed to the development of **SmartCompost**, a student venture focused on using sensor measurements and chemistry-informed analysis to assess compost conditions.
+SmartCompost is an ongoing team project supported by a **VentureWell E-Team grant**. It explores how scientific computing and experimental work can support the interpretation of compost conditions.
 
-## Demo
+This repository presents the project for portfolio review. The development application, source code, model parameters, and experimental methods are maintained privately.
 
-![Sensor Data Dashboard interface](docs/examples/images/Dashboard_overview.png)
+## Current Prototype
 
-**[Watch the 31-second demo video](docs/Sensor_dashboard_demo.mp4)**
+![SmartCompost App Designer startup preview](docs/examples/images/SmartCompost_preview.png)
 
-## Project Overview
+*Saved interface preview of the current app before a simulation is run. A recorded walkthrough of this version is pending.*
 
-The prototype explores how a scientific user interface can make sensor measurements easier to view and interpret. Its focus areas include:
+The application currently supports:
 
-- **Interactive visualization:** presenting sensor measurements in a dashboard.
-- **Temperature and moisture monitoring:** exploring measurements relevant to compost conditions.
-- **Condition-based feedback:** connecting measurements to information that helps users interpret those conditions.
+- Interactive temperature, moisture, and pH controls.
+- Simulation updates that show how selected conditions affect modeled degradation.
+- A dual-axis plot displaying temperature and simulated glyphosate concentration.
+- Crop-category selection and condition-based feedback.
+- Simulation history and plot reset controls.
 
-## Built With
+**Research status:** Inputs are currently manual and concentrations are simulated. The interface's “Live Sensor Data” title does not indicate an implemented hardware connection. Crop-related feedback is illustrative and does not establish compost safety. Experimental validation and physical sensor integration are development goals.
 
-- **MATLAB** — programming and data visualization.
-- **MATLAB App Designer** — graphical user interface development.
+## Team and Contributions
 
-## Connection to SmartCompost
+| Team member | Role | Contribution |
+| --- | --- | --- |
+| [Ernest Pae](https://github.com/ernestpae) | Computational Lead | MATLAB application development, computational modeling, interactive controls, and data visualization |
+| Romeo Adu Appiah | Experimental Lead | Oversees the experimental part of SmartCompost |
 
-This dashboard served as an early software exploration for SmartCompost. The broader project has since moved toward integrating physical sensors and Arduino-based data collection.
+The project combines computational development with experimental work. These role descriptions credit contributions; they do not specify legal ownership of project IP.
 
-The demo documents this prototype stage; it does not represent the current SmartCompost system or demonstrate completed hardware integration.
+## Technical Focus
 
-## Repository Contents
+Ernest's computational work brings together:
 
-This repository is a demo showcase containing a dashboard screenshot and a short video. MATLAB source files and an installable application are not currently included.
+- **MATLAB App Designer:** event-driven callbacks and user interface components.
+- **Numerical modeling:** updating a simulated state as input conditions change.
+- **Scientific visualization:** presenting two quantities with different units on coordinated axes.
+- **Application state management:** retaining simulation history and supporting reset behavior.
 
-| File | Description |
-| --- | --- |
-| [Dashboard screenshot](docs/examples/images/Dashboard_overview.png) | Overview of the prototype interface |
-| [Demo video](docs/Sensor_dashboard_demo.mp4) | 31-second walkthrough |
-| [License](LICENSE) | Repository license terms |
+## Earlier Prototype
 
-## Author
+SmartCompost evolved from the Sensor Data Dashboard, which gives this repository its original name.
 
-**[Ernest Pae](https://github.com/ernestpae)**  
-Chemistry student at Grambling State University, exploring scientific computing, sensor-data visualization, and chemistry-informed tools.
+[Watch the earlier 31-second sensor-dashboard demo](docs/Sensor_dashboard_demo.mp4)
+
+This video shows the **earlier prototype**, not the current SmartCompost features. A new SmartCompost recording will be added when available.
+
+## Development Direction
+
+Ongoing work includes model validation, physical sensor integration, and interface refinement. The public showcase provides an overview of the work without publishing the development implementation.
