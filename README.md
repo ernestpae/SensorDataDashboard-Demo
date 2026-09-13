@@ -6,11 +6,17 @@ SmartCompost is an ongoing team project supported by a **VentureWell E-Team gran
 
 This repository presents the project for portfolio review. The development application, source code, model parameters, and experimental methods are maintained privately.
 
+## SmartCompost Demo
+
+**[Watch the SmartCompost demo (4 seconds, silent)](docs/SmartCompost_Demo.mp4)**
+
+A brief recording showing changing inputs and the temperature and simulated glyphosate-degradation plots. If GitHub does not play the video inline, use **View raw** or **Download** on the video page.
+
 ## Current Prototype
 
 ![SmartCompost App Designer startup preview](docs/examples/images/SmartCompost_preview.png)
 
-*Saved interface preview of the current app before a simulation is run. A recorded walkthrough of this version is pending.*
+*Saved interface preview of the current app before a simulation is run. See the demo above for populated plots.*
 
 The application currently supports:
 
@@ -46,7 +52,7 @@ SmartCompost evolved from the Sensor Data Dashboard, which gives this repository
 
 [Watch the earlier 31-second sensor-dashboard demo](docs/Sensor_dashboard_demo.mp4)
 
-This video shows the **earlier prototype**, not the current SmartCompost features. A new SmartCompost recording will be added when available.
+This video shows the **earlier prototype**, not the current SmartCompost features. The current SmartCompost demo is linked above.
 
 ## Development Direction
 
