@@ -8,7 +8,7 @@ This repository presents the project for portfolio review. The development appli
 
 ## SmartCompost Demo
 
-**[Watch the SmartCompost demo (4 seconds, silent)](docs/SmartCompost_Demo.mp4)**
+**[Watch the SmartCompost demo (18 seconds, silent)](docs/SmartCompost_Demo.mp4)**
 
 A brief recording showing changing inputs and the temperature and simulated glyphosate-degradation plots. If GitHub does not play the video inline, use **View raw** or **Download** on the video page.
 
